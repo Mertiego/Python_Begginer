@@ -22,3 +22,15 @@ elif 40 <= score <= 50:
     print(f"Your score is {score}, you are alright together.")
 else:
     print(f"Your score is {score}.")
+-----------------------------------------------------------------------------------------------
+(I've learned "import random" module :d) 
+import random
+
+love_score = random.randint(1,100)
+
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif 40 <= love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")
